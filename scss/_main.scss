@@ -7,6 +7,7 @@ main {
         font-weight: bold;
         padding-top: 30px;
         text-decoration: underline;
+        margin-top: 15px;
     }
 
     h3 {
@@ -173,4 +174,85 @@ main {
 
 .nombreEscuderia {
     font-weight: bold;
+}
+
+//TEMPORADA 2024
+.mainTemporada2024 {
+    margin: 0 30px;
+}
+
+//calendario
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.encabezadoTabla {
+    border: 1px solid black;
+    background-color: $colorPrincipal;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: $fuentePrincipal;
+    font-size: 20px;
+}
+
+.contenidoTabla {
+    border: 1px solid black;
+    color: black;
+    font-family: $fuentePrincipal;
+    font-size: 16px;
+    text-align: center;
+}
+
+.imgTabla {
+    width: 100px;
+}
+
+.mapaCircuito {
+    width: 200px;
+    height: 110px;
+}
+
+//escuderias
+.escuderiasCartas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-title {
+    font-size: 20px;
+    font-family: $fuentePrincipal;
+    font-weight: bold;
+}
+
+.infoEscuderia {
+    font-size: 14px;
+    font-family: $fuenteParrafos;
+    font-weight: lighter;
+}
+
+//pilotos
+.pilotosCartas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardPiloto {
+    margin-bottom: 20px;
+}
+
+.piloto {
+    text-align: center;
+    font-size: 23px;
+}
+
+.infoPilotos {
+    font-family: $fuenteParrafos;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
 }

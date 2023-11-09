@@ -123,3 +123,25 @@ img#primeraCarreraFoto {
         display: none;
     }
 }
+
+//TEMPORADA 2024
+//calendario 
+@media (max-width: 1023px) {
+    .ubicacionTabla {
+        display: none;
+    }
+
+    .imgTabla {
+        width: 75px;
+    }
+
+    .filaTablaCalendario {
+        height: 110px;
+    }
+}
+
+@media (min-width: 1023px) {
+    .cartaEscuderia {
+        height: 155px;
+    }
+}
