@@ -331,6 +331,71 @@ table {
   text-align: center;
 }
 
+.mainTienda {
+  margin: 20px;
+}
+
+.searchDiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.btn {
+  color: black;
+  border-color: black;
+}
+.btn:hover {
+  color: white;
+  background-color: rgb(202, 0, 0);
+  border-color: rgb(202, 0, 0);
+}
+
+.tienda ul {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.tienda ul li {
+  display: inline;
+  padding: 20px;
+  list-style-type: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.tienda ul li:hover {
+  color: rgb(202, 0, 0);
+}
+
+.tiendaEquipos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.tiendaEquipos li {
+  list-style-type: none;
+}
+
+.h3Tienda {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.btnTienda {
+  color: white;
+  background-color: rgb(202, 0, 0);
+}
+
+.tiendaCartas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cardTienda {
+  margin-top: 20px;
+}
+
 @media (min-width: 768px) {
   #footer {
     display: grid;
@@ -445,6 +510,25 @@ img#primeraCarreraFoto {
 @media (min-width: 1023px) {
   .cartaEscuderia {
     height: 155px;
+  }
+}
+@media (min-width: 840px) {
+  .pTiendaEquipos {
+    display: none;
+  }
+}
+@media (max-width: 840px) {
+  .imgTiendaEquipos {
+    display: none;
+  }
+  .pTiendaEquipos {
+    padding: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: lighter;
+  }
+  .pTiendaEquipos:hover {
+    background-color: rgb(202, 0, 0);
+    color: white;
   }
 }
 

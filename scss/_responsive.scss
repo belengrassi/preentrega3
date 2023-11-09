@@ -145,3 +145,27 @@ img#primeraCarreraFoto {
         height: 155px;
     }
 }
+
+//TIENDA
+@media (min-width: 840px) {
+    .pTiendaEquipos {
+        display: none;
+    }
+}
+
+@media (max-width: 840px) {
+    .imgTiendaEquipos {
+        display: none;
+    }
+
+    .pTiendaEquipos {
+        padding: 20px;
+        font-family: $fuentePrincipal;
+        font-weight: lighter;
+
+        &:hover {
+            background-color: $colorPrincipal;
+            color: white;
+        }
+    }
+}

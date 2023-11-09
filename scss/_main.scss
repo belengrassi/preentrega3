@@ -147,7 +147,7 @@ main {
     font-weight: bold;
 }
 
-.tablaCampeonatoPilotos tr:hover td{
+.tablaCampeonatoPilotos tr:hover td {
     background-color: rgba(220, 22, 22, 0.863);
     color: white;
 }
@@ -255,4 +255,78 @@ table {
     font-size: 14px;
     font-weight: lighter;
     text-align: center;
+}
+
+
+//TIENDA
+.mainTienda {
+    margin: 20px;
+}
+
+.searchDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.btn {
+    color: black;
+    border-color: black;
+
+    &:hover {
+        color: white;
+        background-color: $colorPrincipal;
+        border-color: $colorPrincipal;
+    }
+}
+
+
+.tienda {
+    ul {
+        padding: 20px;
+        text-align: center;
+        border-bottom: 1px solid black;
+
+        li {
+            display: inline;
+            padding: 20px;
+            list-style-type: none;
+            font-family: $fuentePrincipal;
+
+            &:hover {
+                color: $colorPrincipal;
+            }
+        }
+    }
+}
+
+.tiendaEquipos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+
+    li {
+        list-style-type: none;
+    }
+}
+
+.h3Tienda {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.btnTienda {
+    color: white;
+    background-color: $colorPrincipal;
+}
+
+.tiendaCartas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cardTienda {
+    margin-top: 20px;
 }
