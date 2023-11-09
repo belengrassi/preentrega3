@@ -23,6 +23,13 @@ footer {
             font-size: 15px;
         }
     }
+
+    .divsFooter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 15px 10px 15px;
+    }
 }
 
 .google {
@@ -55,5 +62,10 @@ footer {
 .submit {
     background-color: white;
     border: 0.75px solid black;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-evenly;
 }
 
