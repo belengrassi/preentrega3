@@ -104,3 +104,22 @@ p#desarrolloCarreras {
 img#primeraCarreraFoto {
     grid-area: primeraCarreraFoto;
 }
+
+
+//TEMPORADA 2023
+//campeonato pilotos
+@media (max-width: 768px) {
+    .nombrePiloto {
+        display: none;
+    }
+}
+
+//campeonato escuderias
+@media (max-width: 768px) {
+    .auto2023 {
+        display: none;
+    }
+    .pilotosEscuderia {
+        display: none;
+    }
+}

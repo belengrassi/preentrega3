@@ -207,6 +207,52 @@ main p {
   height: 250px;
 }
 
+.cardPilotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.tablaCampeonatoPilotos {
+  margin: 0 50px 20px 50px;
+  border-radius: 3px;
+}
+
+.puesto {
+  font-weight: bold;
+}
+
+.tablaCampeonatoPilotos tr:hover td {
+  background-color: rgba(220, 22, 22, 0.863);
+  color: white;
+}
+
+.tablaCampeonatoEscuderias {
+  margin: 0 50px 20px 50px;
+}
+
+.tablaCampeonatoEscuderias tr:hover td {
+  background-color: rgba(220, 22, 22, 0.863);
+  color: white;
+}
+
+.puntosEscuderia {
+  text-align: end;
+}
+
+.autoLogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.nombreEscuderia {
+  font-weight: bold;
+}
+
 @media (min-width: 768px) {
   #footer {
     display: grid;
@@ -292,6 +338,20 @@ p#desarrolloCarreras {
 
 img#primeraCarreraFoto {
   grid-area: primeraCarreraFoto;
+}
+
+@media (max-width: 768px) {
+  .nombrePiloto {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .auto2023 {
+    display: none;
+  }
+  .pilotosEscuderia {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
