@@ -176,6 +176,18 @@ main {
     font-weight: bold;
 }
 
+.auto2023 {
+    width: 150px;
+    height: auto;
+    transition: all 1.3s;
+}
+
+.auto2023:hover {
+    width: 500px; 
+    height: auto;
+    transition: all 1.3s;
+}
+
 //TEMPORADA 2024
 .mainTemporada2024 {
     margin: 0 30px;
@@ -329,4 +341,16 @@ table {
 
 .cardTienda {
     margin-top: 20px;
+}
+
+.imgTiendaEquipos {
+    height: 100px;
+    width: auto;
+    transition: all 1.3s;
+}
+
+.imgTiendaEquipos:hover {
+    height: 150px;
+    width: auto;
+    transition: all 1.3s;
 }
