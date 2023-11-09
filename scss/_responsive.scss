@@ -2,9 +2,10 @@
 @media (min-width: 768px) {
     #footer {
         display: grid;
-        grid-template-areas: "descargaApp descargaApp" 
-        "tituloFormulario seguinosRedes" 
-        "formularioEmail rrss";
+        grid-template-areas:
+            "descargaApp descargaApp"
+            "tituloFormulario seguinosRedes"
+            "formularioEmail rrss";
         grid-template-rows: auto;
         grid-template-columns: 50%;
         row-gap: 10px;
@@ -14,8 +15,9 @@
 @media (min-width: 1024px) {
     #footer {
         display: grid;
-        grid-template-areas: "descargaApp tituloFormulario seguinosRedes" 
-        "descargaApp formularioEmail rrss";
+        grid-template-areas:
+            "descargaApp tituloFormulario seguinosRedes"
+            "descargaApp formularioEmail rrss";
         grid-template-rows: auto;
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -49,4 +51,56 @@ div#formularioEmail {
 
 ul#rrss {
     grid-area: rrss;
+}
+
+
+//HISTORIA DE LA F1
+@media (min-width: 768px) {
+    #grilla {
+        display: grid;
+        grid-template-areas:
+            "titulo titulo"
+            "imagen parrafo";
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 3fr;
+        column-gap: 20px;
+        row-gap: 15px;
+    }
+}
+
+h2#titulo {
+    grid-area: titulo;
+}
+
+img#imagen {
+    grid-area: imagen;
+}
+
+p#parrafo {
+    grid-area: parrafo;
+}
+
+@media (min-width: 768px) {
+    #conteiner {
+        display: grid;
+        grid-template-areas:
+            "primerasCarreras primerasCarreras"
+            "primeraCarreraFoto desarrolloCarreras";
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 3fr;
+        column-gap: 20px;
+        row-gap: 5px;
+    }
+}
+
+h3#primerasCarreras {
+    grid-area: primerasCarreras;
+}
+
+p#desarrolloCarreras {
+    grid-area: desarrolloCarreras;
+}
+
+img#primeraCarreraFoto {
+    grid-area: primeraCarreraFoto;
 }

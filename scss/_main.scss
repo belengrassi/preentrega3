@@ -81,3 +81,46 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+//HISTORIA DE LA F1
+.mainHistoria {
+    margin: 20px;
+}
+
+.aleron {
+    width: 300px;
+    height: 200px;
+}
+
+.motor {
+    width: 300px;
+    height: 200px;
+}
+
+.imagen {
+    width: 335px;
+    height: auto;
+}
+
+.introVideo {
+    font-weight: bold;
+}
+
+.alerones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.motores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.primeraFoto {
+    width: 340px;
+    height: 250px;
+}
