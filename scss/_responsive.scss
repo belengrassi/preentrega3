@@ -1,0 +1,52 @@
+//FOOTER
+@media (min-width: 768px) {
+    #footer {
+        display: grid;
+        grid-template-areas: "descargaApp descargaApp" 
+        "tituloFormulario seguinosRedes" 
+        "formularioEmail rrss";
+        grid-template-rows: auto;
+        grid-template-columns: 50%;
+        row-gap: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #footer {
+        display: grid;
+        grid-template-areas: "descargaApp tituloFormulario seguinosRedes" 
+        "descargaApp formularioEmail rrss";
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+div#descargaApp {
+    grid-area: descargaApp;
+}
+
+ul#botonesAplicacion {
+    grid-area: botonesAplicacion;
+}
+
+h4 {
+    &#tituloDescargaApp {
+        grid-area: tituloDescargaApp;
+    }
+
+    &#tituloFormulario {
+        grid-area: tituloFormulario;
+    }
+
+    &#seguinosRedes {
+        grid-area: seguinosRedes;
+    }
+}
+
+div#formularioEmail {
+    grid-area: formularioEmail;
+}
+
+ul#rrss {
+    grid-area: rrss;
+}

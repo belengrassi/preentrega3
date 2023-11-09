@@ -1,0 +1,59 @@
+footer {
+    background-color: $colorPrincipal;
+    border-top: 1px solid black;
+
+    h4 {
+        font-family: $fuentePrincipal;
+        font-size: 17px;
+        color: black;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    button {
+        background-color: white;
+        width: auto;
+        height: auto;
+        border-style: none;
+        margin: 0 7px 0 7px;
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+        }
+    }
+}
+
+.google {
+    width: 30px;
+}
+
+.apple {
+    width: 47px;
+}
+
+.redesSociales {
+    width: 30px;
+    border-radius: 10px;
+}
+
+.oculto {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+.submit {
+    background-color: white;
+    border: 0.75px solid black;
+}
+

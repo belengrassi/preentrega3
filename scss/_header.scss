@@ -1,0 +1,32 @@
+header {
+    background-color: $colorPrincipal;
+    border-bottom: 1px solid black;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+
+        h1 {
+            font-family: $fuentePrincipal;
+            color: white;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        img {
+            width: 80px;
+        }
+    }
+}
+
+.fuenteMen {
+    font-size: 15px;
+    color: black;
+    font-family: $fuentePrincipal;
+    text-transform: uppercase;
+    padding: 15px;
+
+    a:hover {
+        color: white;
+    }
+}

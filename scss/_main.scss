@@ -1,0 +1,83 @@
+main {
+    h2 {
+        font-size: 25px;
+        font-family: $fuentePrincipal;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-top: 30px;
+        text-decoration: underline;
+    }
+
+    h3 {
+        font-size: 23px;
+        font-family: $fuentePrincipal;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    h4 {
+        font-size: 20px;
+        font-family: $fuentePrincipal;
+        font-weight: bold;
+    }
+
+    h5 {
+        font-family: $fuentePrincipal;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    p {
+        font-family: $fuenteParrafos;
+        font-weight: lighter;
+        font-size: 15px;
+    }
+}
+
+//INICIO
+.carousel {
+    margin-top: 20px;
+}
+
+.mainInicio {
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+}
+
+.card-img-top-neumatico {
+    width: 115px;
+    height: 110px;
+    align-self: center;
+    padding-top: 7px;
+}
+
+.neumaticos {
+    text-align: center;
+    font-family: $fuentePrincipal;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.banderasCartas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-text {
+    font-family: $fuenteParrafos;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.halo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.volantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

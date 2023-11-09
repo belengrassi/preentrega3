@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(202, 0, 0);
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+}
+header a h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+header a img {
+  width: 80px;
+}
+
+.fuenteMen {
+  font-size: 15px;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 15px;
+}
+.fuenteMen a:hover {
+  color: white;
+}
+
+footer {
+  background-color: rgb(202, 0, 0);
+  border-top: 1px solid black;
+}
+footer h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 17px;
+  color: black;
+  padding: 5px;
+  font-weight: bold;
+}
+footer button {
+  background-color: white;
+  width: auto;
+  height: auto;
+  border-style: none;
+  margin: 0 7px 0 7px;
+}
+footer button a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.google {
+  width: 30px;
+}
+
+.apple {
+  width: 47px;
+}
+
+.redesSociales {
+  width: 30px;
+  border-radius: 10px;
+}
+
+.oculto {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.submit {
+  background-color: white;
+  border: 0.75px solid black;
+}
+
+main h2 {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 30px;
+  text-decoration: underline;
+}
+main h3 {
+  font-size: 23px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  padding-top: 10px;
+}
+main h4 {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+main h5 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+main p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.carousel {
+  margin-top: 20px;
+}
+
+.mainInicio {
+  margin: 0 10px 0 10px;
+  padding: 0 10px 0 10px;
+}
+
+.card-img-top-neumatico {
+  width: 115px;
+  height: 110px;
+  align-self: center;
+  padding-top: 7px;
+}
+
+.neumaticos {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.banderasCartas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+.halo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.volantes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 768px) {
+  #footer {
+    display: grid;
+    grid-template-areas: "descargaApp descargaApp" "tituloFormulario seguinosRedes" "formularioEmail rrss";
+    grid-template-rows: auto;
+    grid-template-columns: 50%;
+    row-gap: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  #footer {
+    display: grid;
+    grid-template-areas: "descargaApp tituloFormulario seguinosRedes" "descargaApp formularioEmail rrss";
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+div#descargaApp {
+  grid-area: descargaApp;
+}
+
+ul#botonesAplicacion {
+  grid-area: botonesAplicacion;
+}
+
+h4#tituloDescargaApp {
+  grid-area: tituloDescargaApp;
+}
+h4#tituloFormulario {
+  grid-area: tituloFormulario;
+}
+h4#seguinosRedes {
+  grid-area: seguinosRedes;
+}
+
+div#formularioEmail {
+  grid-area: formularioEmail;
+}
+
+ul#rrss {
+  grid-area: rrss;
+}
+
+/*# sourceMappingURL=estilo.css.map */
