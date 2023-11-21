@@ -49,6 +49,7 @@ footer button {
   height: auto;
   border-style: none;
   margin: 0 7px 0 7px;
+  border-radius: 3px;
 }
 footer button a {
   text-decoration: none;
@@ -77,16 +78,13 @@ footer .divsFooter {
 
 .oculto {
   position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  padding: 0 !important;
-  margin: -1px !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
   overflow: hidden !important;
-  overflow-x: hidden !important;
-  overflow-y: hidden !important;
-  clip: rect(0, 0, 0, 0) !important;
-  white-space: nowrap !important;
-  border: 0 !important;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
 }
 
 .submit {
@@ -99,31 +97,35 @@ footer .divsFooter {
   justify-content: space-evenly;
 }
 
+.textoRedesSociales {
+  display: hidden;
+}
+
 main h2 {
   font-size: 25px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  padding-top: 30px;
   text-decoration: underline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 30px;
   margin-top: 5px;
 }
 main h3 {
   font-size: 23px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding-top: 10px;
 }
 main h4 {
   font-size: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 main h5 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-weight: bold;
   font-size: 17px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 main p {
   font-family: Arial, Helvetica, sans-serif;

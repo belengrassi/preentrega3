@@ -1,38 +1,58 @@
+@mixin h2 {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@mixin h3 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+@mixin h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@mixin h5 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+@mixin p {
+    font-weight: lighter;
+    font-size: 15px
+}
+
 main {
     h2 {
-        font-size: 25px;
+        @include h2;
         font-family: $fuentePrincipal;
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: bold;
         padding-top: 30px;
-        text-decoration: underline;
         margin-top: 5px;
     }
 
     h3 {
-        font-size: 23px;
+        @include h3;
         font-family: $fuentePrincipal;
-        font-weight: bold;
         padding-top: 10px;
     }
 
     h4 {
-        font-size: 20px;
+        @include h4;
         font-family: $fuentePrincipal;
-        font-weight: bold;
     }
 
     h5 {
+        @include h5;
         font-family: $fuentePrincipal;
-        font-weight: bold;
-        font-size: 17px;
     }
 
     p {
         font-family: $fuenteParrafos;
-        font-weight: lighter;
-        font-size: 15px;
+        @include p;
     }
 }
 

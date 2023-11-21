@@ -1,3 +1,11 @@
+//FOOTER
+
+@mixin a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
 footer {
     background-color: $colorPrincipal;
     border-top: 1px solid black;
@@ -16,11 +24,10 @@ footer {
         height: auto;
         border-style: none;
         margin: 0 7px 0 7px;
+        border-radius: 3px;
 
         a {
-            text-decoration: none;
-            color: black;
-            font-size: 15px;
+            @include a;
         }
     }
 
@@ -47,16 +54,13 @@ footer {
 
 .oculto {
     position: absolute !important;
-    width: 1px !important;
-    height: 1px !important;
-    padding: 0 !important;
-    margin: -1px !important;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
     overflow: hidden !important;
-    overflow-x: hidden !important;
-    overflow-y: hidden !important;
-    clip: rect(0, 0, 0, 0) !important;
-    white-space: nowrap !important;
-    border: 0 !important;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
 }
 
 .submit {
@@ -67,5 +71,9 @@ footer {
 .redes {
     display: flex;
     justify-content: space-evenly;
+}
+
+.textoRedesSociales {
+    display: hidden;
 }
 
